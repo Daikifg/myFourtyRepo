@@ -26,3 +26,18 @@ def get_superheroes():
         "Cyborg",
     ]
     return rows
+
+
+@app.get("/cursoPlatzi")
+def get_cursos():
+    rows = [
+        "Docker",
+        "Bash",
+        "Linux",
+        "Inglés",
+        "Python",
+        "JavaScript",
+        "Azure",
+        "DevOps",
+    ]
+    return rows
